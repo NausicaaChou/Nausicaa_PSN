@@ -1,0 +1,49 @@
+USE psn;
+
+CREATE TABLE psn_details_pic(
+  pid int(11) NOT NULL,
+  laptop_id int(11) DEFAULT NULL,
+  sm varchar(128) DEFAULT NULL,
+  md varchar(128) DEFAULT NULL,
+  lg varchar(128) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+INSERT INTO psn_details_pic VALUES
+(1,1,'img/games_lunbo/COD3/S1.jpg','img/games_lunbo/COD3/S1.jpg','img/games_lunbo/COD3/S1.jpg'),
+(2,1,'img/games_lunbo/COD3/S2.jpg','img/games_lunbo/COD3/S2.jpg','img/games_lunbo/COD3/S2.jpg'),
+(3,1,'img/games_lunbo/COD3/S3.jpg','img/games_lunbo/COD3/S3.jpg','img/games_lunbo/COD3/S3.jpg'),
+(4,2,'img/games_lunbo/SEIKIRO/S1.jpg','img/games_lunbo/SEIKIRO/S1.jpg','img/games_lunbo/SEIKIRO/S1.jpg'),
+(5,2,'img/games_lunbo/SEIKIRO/S2.jpg','img/games_lunbo/SEIKIRO/S2.jpg','img/games_lunbo/SEIKIRO/S2.jpg'),
+(6,2,'img/games_lunbo/SEIKIRO/S3.jpg','img/games_lunbo/SEIKIRO/S3.jpg','img/games_lunbo/SEIKIRO/S3.jpg'),
+(7,3,'img/games_lunbo/DMC5/S1.jpg','img/games_lunbo/DMC5/S1.jpg','img/games_lunbo/DMC5/S1.jpg'),
+(8,3,'img/games_lunbo/DMC5/S2.jpg','img/games_lunbo/DMC5/S2.jpg','img/games_lunbo/DMC5/S2.jpg'),
+(9,3,'img/games_lunbo/DMC5/S3.jpg','img/games_lunbo/DMC5/S3.jpg','img/games_lunbo/DMC5/S3.jpg'),
+(10,4,'img/games_lunbo/MHW/S1.jpg','img/games_lunbo/MHW/S1.jpg','img/games_lunbo/MHW/S1.jpg'),
+(11,4,'img/games_lunbo/MHW/S2.jpg','img/games_lunbo/MHW/S2.jpg','img/games_lunbo/MHW/S2.jpg'),
+(12,4,'img/games_lunbo/MHW/S3.jpg','img/games_lunbo/MHW/S3.jpg','img/games_lunbo/MHW/S3.jpg'),
+(13,5,'img/games_lunbo/DIVISION2/S1.jpg','img/games_lunbo/DIVISION2/S1.jpg','img/games_lunbo/DIVISION2/S1.jpg'),
+(14,5,'img/games_lunbo/DIVISION2/S2.jpg','img/games_lunbo/DIVISION2/S2.jpg','img/games_lunbo/DIVISION2/S2.jpg'),
+(15,5,'img/games_lunbo/DIVISION2/S3.jpg','img/games_lunbo/DIVISION2/S3.jpg','img/games_lunbo/DIVISION2/S3.jpg'),
+(16,6,'img/games_lunbo/R6/S1.jpg','img/games_lunbo/R6/S1.jpg','img/games_lunbo/R6/S1.jpg'),
+(17,6,'img/games_lunbo/R6/S2.jpg','img/games_lunbo/R6/S2.jpg','img/games_lunbo/R6/S2.jpg'),
+(18,6,'img/games_lunbo/R6/S3.jpg','img/games_lunbo/R6/S3.jpg','img/games_lunbo/R6/S3.jpg'),
+(19,7,'img/games_lunbo/P5/S1.jpg','img/games_lunbo/P5/S1.jpg','img/games_lunbo/P5/S1.jpg'),
+(20,7,'img/games_lunbo/P5/S2.jpg','img/games_lunbo/P5/S2.jpg','img/games_lunbo/P5/S2.jpg'),
+(21,7,'img/games_lunbo/P5/S3.jpg','img/games_lunbo/P5/S3.jpg','img/games_lunbo/P5/S3.jpg'),
+(22,8,'img/games_lunbo/GOW/S1.jpg','img/games_lunbo/GOW/S1.jpg','img/games_lunbo/GOW/S1.jpg'),
+(23,8,'img/games_lunbo/GOW/S2.jpg','img/games_lunbo/GOW/S2.jpg','img/games_lunbo/GOW/S2.jpg'),
+(24,8,'img/games_lunbo/GOW/S3.jpg','img/games_lunbo/GOW/S3.jpg','img/games_lunbo/GOW/S3.jpg'),
+(25,9,'img/games_lunbo/HORIZION/S1.jpg','img/games_lunbo/HORIZION/S1.jpg','img/games_lunbo/HORIZION/S1.jpg'),
+(26,9,'img/games_lunbo/HORIZION/S2.jpg','img/games_lunbo/HORIZION/S2.jpg','img/games_lunbo/HORIZION/S2.jpg'),
+(27,9,'img/games_lunbo/HORIZION/S3.jpg','img/games_lunbo/HORIZION/S3.jpg','img/games_lunbo/HORIZION/S3.jpg'),
+(28,10,'img/games_lunbo/UNCHARTED/S1.jpg','img/games_lunbo/UNCHARTED/S1.jpg','img/games_lunbo/UNCHARTED/S1.jpg'),
+(29,10,'img/games_lunbo/UNCHARTED/S2.jpg','img/games_lunbo/UNCHARTED/S2.jpg','img/games_lunbo/UNCHARTED/S2.jpg'),
+(30,10,'img/games_lunbo/UNCHARTED/S3.jpg','img/games_lunbo/UNCHARTED/S3.jpg','img/games_lunbo/UNCHARTED/S3.jpg'),
+(31,11,'img/games_lunbo/SPIDERMAN/S1.jpg','img/games_lunbo/SPIDERMAN/S1.jpg','img/games_lunbo/SPIDERMAN/S1.jpg'),
+(32,11,'img/games_lunbo/SPIDERMAN/S2.jpg','img/games_lunbo/SPIDERMAN/S2.jpg','img/games_lunbo/SPIDERMAN/S2.jpg'),
+(33,11,'img/games_lunbo/SPIDERMAN/S3.jpg','img/games_lunbo/SPIDERMAN/S3.jpg','img/games_lunbo/SPIDERMAN/S3.jpg'),
+(34,12,'img/games_lunbo/jqrdz/S1.jpg','img/games_lunbo/jqrdz/S1.jpg','img/games_lunbo/jqrdz/S1.jpg'),
+(35,12,'img/games_lunbo/jqrdz/S2.jpg','img/games_lunbo/jqrdz/S2.jpg','img/games_lunbo/jqrdz/S2.jpg'),
+(36,12,'img/games_lunbo/jqrdz/S3.jpg','img/games_lunbo/jqrdz/S3.jpg','img/games_lunbo/jqrdz/S3.jpg');
+
+

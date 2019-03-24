@@ -1,0 +1,38 @@
+USE psn;
+
+CREATE TABLE psn_details(
+  lid TINYINT PRIMARY KEY AUTO_INCREMENT,
+  family_id int(11) DEFAULT NULL,
+  title VARCHAR(128) DEFAULT NULL,
+  subtitle VARCHAR(128) DEFAULT NULL,
+  img_title VARCHAR(128) DEFAULT NULL,
+  date VARCHAR(64) DEFAULT NULL,
+  type VARCHAR(64) DEFAULT NULL,
+  gb VARCHAR(10) DEFAULT NULL,
+  price DECIMAL(6,2) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+INSERT INTO psn_details VALUES
+(1,1,'使命召唤®：黑色行动4 + PlayStation®Plus 12个月会籍 (同捆装优惠) (中英韩文版)','Activision','img/games_lunbo/COD3/COD3.jpg','2018.10.12','射击','42',496.00),
+
+(2,2,'SEKIRO: SHADOWS DIE TWICE (中英韩文版)','FromSoftware, Inc.','img/games_lunbo/SEIKIRO/SEIKIRO.jpg','2019.03.22','动作','13.54',398.00),
+
+(3,3,'鬼泣5 (中日英韩文版)','CAPCOM CO., LTD.','img/games_lunbo/DMC5/DMC5.jpg','2019.03.08','动作','31.55',428.00),
+
+(4,4,'怪物猎人:世界 (中日英韩文版)','CAPCOM CO., LTD.','img/games_lunbo/MHW/MHW.jpg','2018.01.26','动作','14.3',358.00),
+
+(5,5,'《汤姆克兰西：全境封锁 2》(中日英韩文版)','Ubisoft Entertainment','img/games_lunbo/DIVISION2/division2.jpg','2019.03.15','射击','44.97',690.00),
+
+(6,6,'《彩虹六号：围攻行动》(韩语, 繁体中文, 英语, 简体中文)','Ubisoft Entertainment','img/games_lunbo/R6/R6.jpg','2015.12.2','射击','16.82',210.00),
+
+(7,7,'女神异闻录5 (中文版)','SEGA Games Co., Ltd.','img/games_lunbo/P5/P5.jpg','2017.03.23','角色扮演游戏','19.7',240.00),
+
+(8,8,'God of War (中英韩文版)','Worldwide Studios','img/games_lunbo/GOW/GOW.jpg','2018.04.20','动作','37.76',308.00),
+
+(9,9,'地平线:黎明曙光 (中英韩文版)','Worldwide Studios','img/games_lunbo/HORIZION/HORIZON.jpg','2017.02.28','角色扮演游戏','39.26',148.00),
+
+(10,10,'神秘海域4 PlayStation®Hits (中英韩文版)','Worldwide Studios','img/games_lunbo/UNCHARTED/UNCHARTED.jpg','2018.07.26','动作','43.43',148.00),
+
+(11,11,'漫威蜘蛛侠 (中英韩文版)','Worldwide Studios','img/games_lunbo/SPIDERMAN/SPIDERMAN.jpg','2018.09.07','动作','43.33',308.00),
+
+(12,12,'超级机器人大战 (中英韩文版)','BANDAI NAMCO Entertainment Inc.','img/games_lunbo/jqrdz/image.jpg','2019.03.20','模拟','6.88',529.00)
